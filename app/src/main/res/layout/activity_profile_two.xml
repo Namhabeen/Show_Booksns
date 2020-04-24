@@ -13,7 +13,7 @@
         android:layout_marginStart="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="200dp"
-        android:text="책 제목: 이어쩌고 저쩌고 블라블라 \n작가: 작가님님 \n읽은 날짜: 201110111"
+        android:text="책 제목: 풀 받아져라 제발 블라블라 \n작가: 작가님님 \n읽은 날짜: 201110111"
         app:layout_constraintStart_toEndOf="@+id/imageButton41"
         app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
