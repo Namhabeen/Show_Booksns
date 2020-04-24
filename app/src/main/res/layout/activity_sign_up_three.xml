@@ -7,7 +7,7 @@
     android:background="#FFFFFF">
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/imageLike"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
@@ -18,19 +18,19 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageButton
-        android:id="@+id/imageButton7"
+        android:id="@+id/poemButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="25dp"
         android:background="#FFFFFF"
-        app:layout_constraintStart_toEndOf="@+id/imageButton6"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton4"
+        app:layout_constraintStart_toEndOf="@+id/essayButton"
+        app:layout_constraintTop_toBottomOf="@+id/novelIButton"
         app:srcCompat="@drawable/image_a5" />
 
     <ImageButton
-        android:id="@+id/imageButton11"
+        android:id="@+id/historyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -40,12 +40,12 @@
         android:layout_marginRight="40dp"
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton10"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton8"
+        app:layout_constraintStart_toEndOf="@+id/moneyButton"
+        app:layout_constraintTop_toBottomOf="@+id/humanButton"
         app:srcCompat="@drawable/image_a9" />
 
     <ImageButton
-        android:id="@+id/imageButton14"
+        android:id="@+id/comButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -56,11 +56,11 @@
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/imageButton13"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton11"
+        app:layout_constraintTop_toBottomOf="@+id/historyButton"
         app:srcCompat="@drawable/image_a12" />
 
     <ImageButton
-        android:id="@+id/imageButton5"
+        android:id="@+id/novelOButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -70,12 +70,12 @@
         android:layout_marginRight="40dp"
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton4"
+        app:layout_constraintStart_toEndOf="@+id/novelIButton"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/image_a3" />
 
     <ImageButton
-        android:id="@+id/imageButton8"
+        android:id="@+id/humanButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -85,24 +85,24 @@
         android:layout_marginRight="40dp"
         android:background="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/imageButton7"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton5"
+        app:layout_constraintStart_toEndOf="@+id/poemButton"
+        app:layout_constraintTop_toBottomOf="@+id/novelOButton"
         app:srcCompat="@drawable/image_a6" />
 
     <ImageButton
-        android:id="@+id/imageButton4"
+        android:id="@+id/novelIButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="100dp"
         android:background="#FFFFFF"
-        app:layout_constraintStart_toEndOf="@+id/imageButton3"
+        app:layout_constraintStart_toEndOf="@+id/novelButton"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/image_a2" />
 
     <ImageButton
-        android:id="@+id/imageButton9"
+        android:id="@+id/selfButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -110,7 +110,7 @@
         android:layout_marginTop="25dp"
         android:background="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton6"
+        app:layout_constraintTop_toBottomOf="@+id/essayButton"
         app:srcCompat="@drawable/image_a7" />
 
     <ImageButton
@@ -121,12 +121,12 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="25dp"
         android:background="#FFFFFF"
-        app:layout_constraintStart_toEndOf="@+id/imageButton12"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton10"
+        app:layout_constraintStart_toEndOf="@+id/healthButton"
+        app:layout_constraintTop_toBottomOf="@+id/moneyButton"
         app:srcCompat="@drawable/image_a11" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/novelButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -138,7 +138,7 @@
         app:srcCompat="@drawable/image_a1" />
 
     <ImageButton
-        android:id="@+id/imageButton12"
+        android:id="@+id/healthButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -146,23 +146,23 @@
         android:layout_marginTop="25dp"
         android:background="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton9"
+        app:layout_constraintTop_toBottomOf="@+id/selfButton"
         app:srcCompat="@drawable/image_a10" />
 
     <ImageButton
-        android:id="@+id/imageButton10"
+        android:id="@+id/moneyButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="25dp"
         android:background="#FFFFFF"
-        app:layout_constraintStart_toEndOf="@+id/imageButton9"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton7"
+        app:layout_constraintStart_toEndOf="@+id/selfButton"
+        app:layout_constraintTop_toBottomOf="@+id/poemButton"
         app:srcCompat="@drawable/image_a8" />
 
     <ImageButton
-        android:id="@+id/imageButton6"
+        android:id="@+id/essayButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -170,11 +170,11 @@
         android:layout_marginTop="25dp"
         android:background="#FFFFFF"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton3"
+        app:layout_constraintTop_toBottomOf="@+id/novelButton"
         app:srcCompat="@drawable/image_a4" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/nextButton3"
         android:layout_width="330dp"
         android:layout_height="60dp"
         android:layout_marginTop="30dp"
