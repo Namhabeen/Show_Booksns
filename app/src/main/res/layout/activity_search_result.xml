@@ -310,8 +310,7 @@
         android:layout_marginEnd="115dp"
         android:layout_marginRight="115dp"
         android:layout_marginBottom="365dp"
-<<<<<<< HEAD
-        android:text="관련 게시글: 10개"
+        android:text="관련 게시글: 00개"
         android:textColor="#000000"
         android:textSize="15sp"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
