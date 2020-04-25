@@ -107,14 +107,14 @@
         android:id="@+id/imageButton22"
         android:layout_width="48dp"
         android:layout_height="38dp"
+        android:layout_marginBottom="7dp"
         android:background="#00FFFFFF"
         android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.906"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/image_z5"
-        tools:layout_editor_absoluteY="15dp" />
+        app:srcCompat="@drawable/image_z5" />
 
     <com.google.android.gms.maps.MapView
         android:id="@+id/mapView"

@@ -58,7 +58,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="7dp"
         android:layout_marginBottom="604dp"
-        android:drawableLeft="@drawable/image_i1"
+        android:drawableLeft="@drawable/image_g01"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="   한강작가"
@@ -150,7 +150,7 @@
         android:layout_marginTop="5dp"
         app:layout_constraintStart_toStartOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:srcCompat="@drawable/Image_e04" />
+        app:srcCompat="@drawable/image_e04" />
 
     <ImageView
         android:id="@+id/imageView18"
