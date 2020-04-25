@@ -65,8 +65,8 @@
 
     <ImageButton
         android:id="@+id/imageButton37"
-        android:layout_width="48"
-        android:layout_height="38"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginBottom="7dp"
@@ -78,8 +78,8 @@
 
     <ImageButton
         android:id="@+id/imageButton36"
-        android:layout_width="48"
-        android:layout_height="38"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginBottom="7dp"
@@ -91,8 +91,8 @@
 
     <ImageButton
         android:id="@+id/imageButton38"
-        android:layout_width="48"
-        android:layout_height="38"
+        android:layout_width="48dp"
+        android:layout_height="38dp"
         android:layout_marginStart="40dp"
         android:layout_marginLeft="40dp"
         android:layout_marginEnd="50dp"
@@ -195,7 +195,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-        app:srcCompat="@drawable/Image_e04" />
+        app:srcCompat="@drawable/image_e04" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -207,7 +207,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintStart_toEndOf="@+id/imageButton41"
         app:layout_constraintTop_toBottomOf="@+id/textView30"
-        app:srcCompat="@drawable/Image_e05" />
+        app:srcCompat="@drawable/image_e05" />
 
     <TextView
         android:id="@+id/textView28"
