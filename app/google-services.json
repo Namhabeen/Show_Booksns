@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "899210087493",
+    "firebase_url": "https://show-booksns.firebaseio.com",
+    "project_id": "show-booksns",
+    "storage_bucket": "show-booksns.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899210087493:android:5dc2d0f0767c15b114a72c",
+        "android_client_info": {
+          "package_name": "com.example.show_booksns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899210087493-h91mrdh8v27dlmfkrnil1jseko7nbd5g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIAqLZgfCc4I2FP_i5wkMroX_k9QJxVX8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899210087493-h91mrdh8v27dlmfkrnil1jseko7nbd5g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
